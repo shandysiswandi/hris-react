@@ -1,0 +1,60 @@
+.container {
+  min-height: 100vh;
+  background-color: #f9fafb; /* Tailwind's gray-50 */
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  height: 5rem; /* equivalent to h-20 */
+}
+
+.card {
+  max-width: 28rem; /* equivalent to max-w-md */
+  width: 100%;
+  background-color: white;
+  border-radius: 0.75rem; /* rounded-xl */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.title {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: smaller;
+  margin-bottom: 1rem;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.google-button {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  color: #6b7280; /* Tailwind's text-gray-500 */
+  font-size: 0.875rem;
+}
